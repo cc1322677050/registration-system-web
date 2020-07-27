@@ -1,0 +1,64 @@
+{
+	"pages": [{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "账号登陆"
+			}
+		}, {
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "欢迎注册"
+			}
+		}, {
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "预约中心"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人主页"
+			}
+		}, {
+			"path": "pages/my/updata",
+			"style": {
+				"navigationBarTitleText": "信息修改"
+			}
+		}, {
+			"path": "pages/my/list",
+			"style": {
+				"navigationBarTitleText": "个人预约"
+			}
+		}, {
+			"path": "pages/my/password",
+			"style": {
+				"navigationBarTitleText": "安全中心"
+			}
+		}
+    ],
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/select_home.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/select_my.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}
